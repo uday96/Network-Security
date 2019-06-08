@@ -1,0 +1,2 @@
+- Assignment not properly explained in the pdf
+- The file structure and usage of session keys in file structure could be elaborated

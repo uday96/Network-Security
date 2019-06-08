@@ -1,0 +1,16 @@
+Script started on Sunday 08 October 2017 11:15:41 PM IST
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass3[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass3[00m$ python kerberose.py -N  2 FS1 FS3
+ker5>get user1 fileserver1 test.txt
+Hello World!
+ker5>put user3 fileserver3 data.txt
+ker5>get user3 fileserver3 data.txt
+Random Data
+ker5>get user1 fileservwer   er1 random
+file not found
+ker5>put user3 fileserver1 random
+file not found
+ker5>exixt  t
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass3[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass3[00m$ exit
+exit
+
+Script done on Sunday 08 October 2017 11:17:16 PM IST

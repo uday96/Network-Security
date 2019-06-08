@@ -1,0 +1,4 @@
+- Very time consuming assignment
+- No proper documentation to setup snort on mininet
+- using popen in mininet python api gives faulty execution
+- mininet vm has no UI and only CLI, so we cant copy commands or use UI required apps and have to type in everything which is very time consuming especially setting up snort

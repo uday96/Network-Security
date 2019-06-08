@@ -1,0 +1,27 @@
+Script started on Sunday 10 September 2017 10:45:33 PM IST
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ make
+gcc -o secureMail secureMail.c -lcrypto
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ ./secureMail CreateKeys 
+ Usernames.txt 
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ ./secureMail CreateMail 
+ CONF Uday1 Uday2 input.txt output.txt sha1 des3
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ ./sc[KecureMail ReadMail C 
+ONF Uday1 Uday2 output.txt output.txt sha1 des3
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ diff input.txt output.tx
+xt
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ ./secureMail CreateMail 
+ AUN[KIN Uday1 Uday2 input.txt output.txt sha256 aes-128-ecb
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ ./secureMail Red[KadMail A 
+UIN Uday1 Uday2 output.txt output.txt sha256 aes-128-ecb
+success
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ ./secureMail CreateMail 
+ COAI Uday1 Uday2 input.txt output.txt sha256 bf-ecb
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ ./secureMail ReadMail C 
+OAI Uday1 Uday2 output.txt output.txt sha256 bf-ecb
+success
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ diff input.txt output.tx
+xt 
+]0;uday@uday-HP-ENVY-15-Notebook-PC: ~/NetworkSecurity/Ass2[01;32muday@uday-HP-ENVY-15-Notebook-PC[00m:[01;34m~/NetworkSecurity/Ass2[00m$ exit
+exit
+
+Script done on Sunday 10 September 2017 10:48:34 PM IST
